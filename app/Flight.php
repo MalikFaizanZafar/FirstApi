@@ -4,6 +4,9 @@ namespace App;
 
 use Illuminate\Database\Eloquent\Model;
 
+use App\Airport;
+use App\Customer;
+
 class Flight extends Model
 {
     public function arrivalAirport(){
